@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import Header from './Header.jsx';
+import Header from './components/Header.jsx';
+import CallContainer from './components/CallContainer/index.jsx';
 
 const App = () => {
   return (
     <div className='container'>
       <Header/>
-      <div className="container-view">Some activities should be here</div>
+      <div className="container-view">
+        <CallContainer />
+      </div>
     </div>
   );
 };

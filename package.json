@@ -12,8 +12,10 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
+    "axios": "^0.23.0",
     "react": "^16.3.1",
-    "react-dom": "^16.3.1"
+    "react-dom": "^16.3.1",
+    "react-spring": "^9.3.0"
   },
   "devDependencies": {
     "babel-core": "6.26.*",
@@ -27,5 +29,6 @@
     "webpack": "4.29.*",
     "webpack-cli": "3.2.*",
     "webpack-dev-server": "3.1.*"
-  }
+  },
+  "proxy": "https://aircall-job.herokuapp.com"
 }
